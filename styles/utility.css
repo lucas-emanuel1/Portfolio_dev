@@ -79,6 +79,41 @@
   font: var(--text-sm);
 }
 
+.flex {
+  display: flex;
+}
+.flex-align-items {
+  align-items: center;
+}
+.flex-justify-content {
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+}
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+.grid-justify-center {
+  justify-content: center;
+}
+.grid-items-center {
+  justify-items: center;
+}
+.grid-space-between {
+  justify-content: space-between;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.container {
+  max-width: 1040px;
+  margin-inline: auto;
+}
+
 .container-space-block {
   margin-block: 80px;
 }
@@ -90,4 +125,14 @@
 }
 .gap-24 {
   gap: 24px;
+}
+
+.background-img-intro {
+  background: url(../assets/Background_Intro.png) no-repeat;
+  background-size: cover;
+}
+
+.background-img-contact {
+  background: url(../assets/Background_Contacts.png) no-repeat;
+  background-size: cover;
 }

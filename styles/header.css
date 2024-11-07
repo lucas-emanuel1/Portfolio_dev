@@ -1,0 +1,31 @@
+.box-img img {
+  width: 112px;
+  height: 112px;
+}
+
+#header {
+  height: 100vh;
+}
+#header .subtitle {
+  margin-block: 56px 8px;
+}
+#header .title-lg {
+  margin-block: 8px 20px;
+}
+#header .text-sm {
+  margin-block: 20px 80px;
+  max-width: 680px;
+}
+
+#header ul {
+  padding-bottom: 80px;
+}
+#header ul li {
+  padding: 8px 16px;
+  background: var(--gray-300);
+  border-radius: 999px;
+}
+#header ul li img {
+  width: 24px;
+  height: 24px;
+}
