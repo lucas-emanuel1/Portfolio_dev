@@ -104,6 +104,9 @@
 .grid-space-between {
   justify-content: space-between;
 }
+.grid-col-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
 
 .text-align-center {
   text-align: center;

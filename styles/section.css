@@ -1,0 +1,24 @@
+#my-work h2 {
+  margin-block: 8px 64px;
+}
+
+.my-work-item {
+  padding: 12px;
+  background-color: var(--gray-300);
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.my-work-item img {
+  border-radius: 8px;
+}
+
+.my-work-item h3 {
+  margin-block: 24px 8px;
+  text-align: left;
+}
+
+.my-work-item p {
+  margin-block: 8px 21px;
+  text-align: left;
+}
