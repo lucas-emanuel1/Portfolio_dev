@@ -1,0 +1,18 @@
+#my-service {
+  margin-block: 120px;
+}
+#my-service h2 {
+  margin-block: 8px 56px;
+}
+.item {
+  border: 2px solid var(--gray-300);
+  border-radius: 12px;
+  padding: 20px;
+}
+.item img {
+  width: 48px;
+  height: 48px;
+}
+.item h3 {
+  margin-block: 20px 8px;
+}
