@@ -1,0 +1,28 @@
+.contact h3 {
+  margin-top: 8px;
+}
+.contact p {
+  margin-block: 8px 48px;
+}
+#footer ul li img {
+  width: 32px;
+  height: 32px;
+}
+#footer ul li {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--gray-300);
+  width: 400px;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.list-contact span {
+  background: url(../assets/ArrowUpRight.svg);
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+}
